@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta charset="utf-8" />
+	<title>jQuery-SPA demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<![endif]-->
+	<script type="text/javascript">
+		window.addEventListener("load",function(){
+        // fix for windows 8
+        if (navigator.appVersion.indexOf("Windows NT 6.2") != -1){
+            document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="css/com/windows.chrome.fix.css" />';
+        }
+    });
+	</script>
+</head>
+
+<body class="fixed-header menu-pin">
+    <include src="template/layout/left.tpl"></include>
+    <div class="page-container">
+      <include src="template/layout/head.tpl"></include>
+      <div id="app" class="page-content-wrapper full-height"></div>
+    </div>
+  	<script src="./lib/jquery-1.11.3.min.js"></script>
+	<script src="./lib/template.js"></script>
+	<script src="./config/config.js"></script>
+  	<script src="./lib/jQuery-SPA.min.js"></script>
+  	<script src="./index.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "jquery-spa",
+  "version": "1.0.0",
+  "description": "jquery单页应用开发框架",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doubi-NO1/jQuery-SPA.git"
+  },
+  "author": "8-shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doubi-NO1/jQuery-SPA/issues"
+  },
+  "homepage": "https://github.com/doubi-NO1/jQuery-SPA#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
+  }
+}

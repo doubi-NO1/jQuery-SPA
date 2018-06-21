@@ -1,0 +1,7 @@
+{
+  "SITE":"./",
+  "SERVICE":"serviceDomain",
+  "showChannel":[
+    "team","role","portal","welcome"
+  ]
+}

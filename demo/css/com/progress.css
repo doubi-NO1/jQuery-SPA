@@ -1,0 +1,32 @@
+/**
+ * 进度条
+ */
+.line-progress {
+    z-index: 9999999;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+/* blue theme, like iOS 7 progress bar */
+
+.line-progress .line-progress-inner {
+    height: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #77b6ff;
+            /*#3498db;*/
+}
+.line-progress .line-progress-end {
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    transition-delay: 300ms;
+    opacity: 0;
+}
+.line-progress .line-progress-percent {
+    display: none;
+}
