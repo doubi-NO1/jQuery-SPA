@@ -125,7 +125,7 @@ utils.fileUpload({
   });
 ```
 
-##在线体验
+## 在线体验
 - 请访问[http://jquery-spa.demos.party](http://jquery-spa.demos.party)
 - 你可以再这里[查看](https://github.com/doubi-NO1/jQuery-SPA/tree/master/demo)demo源码
 
