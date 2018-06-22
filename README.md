@@ -81,7 +81,7 @@ $(function(){
 ```
 
 ### 内置的jQuery插件
-- 框架内置了两个jQuery插件:
+#### 框架内置了两个jQuery插件:
 - jQuery-getData可以获取任何一个元素中所有写有name属性的子节点的值,你可以这样方便的使用:
 ```javascript
   $.ajax({
