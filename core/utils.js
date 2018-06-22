@@ -24,14 +24,11 @@ module.exports = {
         var upfile = (blob, type) => {
           var xhr = new XMLHttpRequest();
           xhr.onreadystatechange = () => {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-              var text = JSON.parse(xhr.responseText);
-              if (text.ec == -100) {
-                window.location.href = "login.html";
-              } else if (text.ec == -1) {
-                def.reject(text);
+            if (xhr.readyState == 4) {
+              if (xhr.status == 200) {
+                def.resolve(xhr.responseText);
               } else {
-                def.resolve(text);
+                def.reject(xhr);
               }
             }
           };
