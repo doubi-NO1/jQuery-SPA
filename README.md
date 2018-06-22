@@ -2,7 +2,7 @@
 
 ## 描述
 
-- 基于jQuery的单页应用开发骨架。
+- 基于jQuery的单页应用开发骨架。
 
 ## 产生原因
 - 之前在很多前端群里面发现非北上广深小伙伴在实际工作中，很多还都以jQuery作为主要技术选型，而基于jQuery的单页应用也比较少见，因此抽空将两年前我们前端用jQuery做单页应用的一些想法整理起来，一来记录一下当初我的成长经历，二来起一个抛砖引玉的作用（其实就是炒冷饭😁 ）。
@@ -103,3 +103,14 @@ $(function(){
     $("#selects").loadSelect();
   });
 ```
+
+##在线体验
+- 请访问[http://jquery-spa.demos.party](http://jquery-spa.demos.party)
+- 你可以再这里[查看](https://github.com/doubi-NO1/jQuery-SPA/tree/master/demo)demo源码
+
+## 提问交流
+请到[jQuery-SPA issues](https://github.com/doubi-NO1/jQuery-SPA/issues)异步交流。
+
+
+## License
+MIT
