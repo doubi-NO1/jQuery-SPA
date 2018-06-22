@@ -23,7 +23,7 @@ Version | jQuery | artTemplate
 ## 快速开始
 
 ### 安装
-```javascript
+```html
 //先引入依赖
 <script src="jquery.js">
 <script src="arttemplate.js"></script>//artTemplate不是必要的，你也可以替换成你喜欢的其他模板引擎
