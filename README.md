@@ -91,7 +91,10 @@ $(function(){
  * @return Deferred
  */
 utils.fileUpload({
-  data:{}
+  data:{
+    id:1,
+    name:'李四'
+  }
   url:"",
   file:file
  }).done(function(data){
