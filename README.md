@@ -65,7 +65,8 @@ $(function(){
 
 ## 其他功能
 
-### 操作cookie
+### 全局可访问的utils
+#### 操作cookie
 ```javascript
  /**
   * @param name 名称
@@ -78,6 +79,26 @@ $(function(){
  utils.getCookie(name);
  //删除
  utils.delCookie(name);
+```
+
+### 文件上传
+```javascript
+/**
+ * @description 以Blob方式发送post请求
+ * @param data 上传时要额外附带的参数，会以a=1&b=2的形式拼接到请求的url后面
+ * @param url 上传的地址
+ * @param file 要上传的文件
+ * @return Deferred
+ */
+utils.fileUpload({
+  data:{}
+  url:"",
+  file:file
+ }).done(function(data){
+   alert('上传成功')
+ }).fail(function(err){
+   alert('上传失败')
+ });
 ```
 
 ### 内置的jQuery插件
