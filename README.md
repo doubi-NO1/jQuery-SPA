@@ -96,7 +96,7 @@ $(function(){
 <div id="selects">
   <select textField="name" valueField="id" url="xxx1/query.do" defalutText="默认选项" defaultValue="默认值"></select>
   <select textField="description" valueField="type" url="xxx2/query.do" defalutText="默认选项" defaultValue="默认值"></select>
-  </div>
+</div>
 ```
 ```javascript
   $(function(){
