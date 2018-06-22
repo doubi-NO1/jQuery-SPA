@@ -81,7 +81,7 @@ $(function(){
  utils.delCookie(name);
 ```
 
-### 文件上传
+#### 文件上传
 ```javascript
 /**
  * @description 以Blob方式发送post请求
@@ -102,7 +102,7 @@ utils.fileUpload({
 ```
 
 ### 内置的jQuery插件
-#### 框架内置了两个jQuery插件:
+#### jQuery-getData
 - jQuery-getData可以获取任何一个元素中所有写有name属性的子节点的值,你可以这样方便的使用:
 ```javascript
   $.ajax({
@@ -112,7 +112,8 @@ utils.fileUpload({
 
   });
 ```
-- jQuery-loadSelect可以获取任何一个元素中所有写有url属性的select，并按照url所描述的接口进行渲染:
+#### jQuery-loadSelect
+-可以获取任何一个元素中所有写有url属性的select，并按照url所描述的接口进行渲染:
 ```html
 <div id="selects">
   <select textField="name" valueField="id" url="xxx1/query.do" defalutText="默认选项" defaultValue="默认值"></select>
@@ -127,7 +128,7 @@ utils.fileUpload({
 
 ## 在线体验
 - 请访问[http://jquery-spa.demos.party](http://jquery-spa.demos.party)
-- 你可以再这里[查看](https://github.com/doubi-NO1/jQuery-SPA/tree/master/demo)demo源码
+- 你可以在这里[查看](https://github.com/doubi-NO1/jQuery-SPA/tree/master/demo)demo源码
 
 ## 提问交流
 请到[jQuery-SPA issues](https://github.com/doubi-NO1/jQuery-SPA/issues)异步交流。
